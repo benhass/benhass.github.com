@@ -33,7 +33,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-default" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 	  <!-- Brand and toggle get grouped for better mobile display -->
 	  <div class="navbar-header">
 		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -52,23 +52,26 @@
 		  {% assign group = 'navigation' %}
 		  {% include JB/pages_list %}
 		</ul>
+        <ul class="nav navbar-nav pull-right">
+            <li>
+                <iframe style="margin-top: 15px;" src="http://ghbtns.com/github-btn.html?user=dbtek&repo=jekyll-bootstrap-3&type=fork&count=true"
+                        allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20"></iframe>
+            </li>
+        </ul>
 	  </div><!-- /.navbar-collapse -->
 	</nav>
   
-    <div class="container-narrow">
+    <div class="container">
 
-      <div class="content">
         {{ content }}
-      </div>
-      <hr>
-      <footer>
+    </div>
+    <hr>
+    <footer>
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          with help from <a href="https://github.com/dbtek/jekyll-bootstrap-3" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap-3</a>
           and <a href="http://getbootstrap.com" target="_blank">Twitter Bootstrap</a>
         </p>
-      </footer>
-
-    </div>
+    </footer>
 
     {% include JB/analytics %}
   </body>
