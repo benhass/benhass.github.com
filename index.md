@@ -36,8 +36,12 @@ The quickest way to start and publish your Jekyll powered blog. 100% compatible 
 
 For original project's usage and documentation please see: <http://jekyllbootstrap.com>  
 
-## License
+## License  
 
 [MIT](http://opensource.org/licenses/MIT)
+
+## To-Do
+
+This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/dbtek/jekyll-bootstrap-3)!
 
 
