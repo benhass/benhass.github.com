@@ -7,7 +7,7 @@ tagline:
 
 ### Bio
 
-My interests center around technology, multimedia art, education, and progressive politics. Since I moved to the Bay Area in 2009, I have split my time between freelance web development and teaching in the Oakland Public School District. I volunteer at youth organizations where I teach multimedia-arts, music, and technology to recent immigrants and underserved youth in Oakland. My formal education is in art history, communication arts and filmmaking from the University of Wisconsin – Madison. See some of [my projects](/projects)
+My interests center around technology, multimedia art, education, and progressive politics. Since I moved to the Bay Area in 2009, I have split my time between freelance web development and teaching in the Oakland Public School District. I volunteer at youth organizations where I teach multimedia-arts, music, and technology to recent immigrants and underserved youth in Oakland. My formal education is in art history, communication arts and filmmaking from the University of Wisconsin – Madison. See some of [my projects](/projects.html)
 
 ---
 
