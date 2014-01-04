@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>
+    {% if page.title %}Ben Hass | {{ page.title }}{% else %}Ben Hass{% endif %}
+    </title>
+
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
 
@@ -33,9 +36,10 @@
 
   </head>
 
-  <body>
+ <body class="{% body_class %}">
     <nav class="navbar navbar-default" role="navigation">
 	  <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="container">
 	  <div class="navbar-header">
 		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
 		  <span class="sr-only">Toggle navigation</span>
@@ -57,16 +61,13 @@
 		  {% include JB/pages_list %} -->
 		</ul>
 	  </div><!-- /.navbar-collapse -->
+  </div>
 	</nav>
   
-    <div class="container">
+    <div id="main" class="container">
       {{ content }}
       <hr />
     </div>
-
-  <!-- <footer>
-    <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
-  </footer> -->
 
     {% include JB/analytics %}
     <script src="{{ ASSET_PATH }}/js/jquery.min.js"></script>
