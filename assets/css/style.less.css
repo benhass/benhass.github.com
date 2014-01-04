@@ -6116,9 +6116,9 @@ pre .tex .formula {
   background: #073642;
 }
 /* home */
-.url_index #main {
+.home #main {
   text-align: center;
 }
-.url_index #main img {
+.home #main img {
   border-radius: 100px;
 }
